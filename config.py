@@ -15,10 +15,10 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "https://envs.sh/jUp.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7781222730 1049173662').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "TechifyBots") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "AKMOVIESHUBBACKUP") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002390475605"))
     BIN_CHANNEL = int(os.environ.get("BIN_CHANNEL", "-1002390475605"))
 
